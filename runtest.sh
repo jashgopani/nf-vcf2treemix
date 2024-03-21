@@ -3,7 +3,7 @@ output_directory=$(dirname $input_file)/results/
 
 echo -e "======\n Testing NF execution \n======" \
 && rm -rf test/results/ \
-&& nextflow run vcf2treemix.nf \
+&& nextflow run main.nf \
 	--vcffile $input_file \
 	--sample_list test/reference_76g/sample_list.tsv \
 	--pop_order test/reference_76g/pop_order \
