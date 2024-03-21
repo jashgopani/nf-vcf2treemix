@@ -1,7 +1,7 @@
 input_file="real-data/76g_plus_PEL_per_group/76g_1000GP-population_set.vcf.gz"
 output_directory=$(dirname $input_file)/results/
 
-nextflow run vcf2treemix.nf \
+nextflow run main.nf \
 	--vcffile $input_file \
 	--sample_list real-data/76g_plus_PEL_per_group/reference/sample_list.tsv \
 	--pop_order real-data/76g_plus_PEL_per_group/reference/pop_order \
