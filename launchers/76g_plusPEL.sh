@@ -1,4 +1,4 @@
-nextflow run vcf2treemix.nf \
+nextflow run main.nf \
 	--vcffile real-data/76g_plus_PEL/76g_1000GP-population_set.vcf.gz \
 	--output_dir real-data/76g_plus_PEL/results \
 	-resume \
