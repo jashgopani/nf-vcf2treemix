@@ -5,7 +5,7 @@ MKSHELL=/bin/bash
 	echo "[DEBUG] Removing variants in LD"
 	bcftools +prune \
 		$prereq \
-		--max-LD $LD \
+		--max $LD \
     --window $WINDOW \
 		--nsites-per-win $N_sites \
 	> $target

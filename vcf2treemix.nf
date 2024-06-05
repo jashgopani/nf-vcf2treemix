@@ -47,7 +47,7 @@ _post2_plot_f3statistics
 _post3_plot_f4statistics
 
 ================================================================*/
-
+nextflow.enable.dsl=1
 /* Define the help message as a function to call when needed *//////////////////////////////
 def helpMessage() {
 	log.info"""

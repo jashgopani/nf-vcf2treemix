@@ -1,0 +1,13 @@
+name: vcf2treemix
+channels:
+    - conda-forge
+    - bioconda
+    - defaults
+dependencies:
+    - bioconda::hmmer=3.3.2
+    - bioconda::bcftools
+    - bioconda::plink2
+    - bioconda::treemix
+    - r
+    - r-essentials
+    - python

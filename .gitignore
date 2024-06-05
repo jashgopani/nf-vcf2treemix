@@ -31,3 +31,6 @@ real-data
 test/*/results
 ## ignore modules markedas REDO - means, in need of refactoring or remaking
 *REDO
+
+.work/
+.nextflow/
