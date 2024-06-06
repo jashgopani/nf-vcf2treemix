@@ -7,6 +7,7 @@ dependencies:
     - bioconda::hmmer=3.3.2
     - bioconda::bcftools
     - bioconda::plink2
+    - bioconda::plink
     - bioconda::treemix
     - r
     - r-essentials
